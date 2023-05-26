@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AnimosaBell.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AnimosaBell"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Width="800" Height="800">
+
+    <Grid Width="800" Height="800">
+        <Button x:Name="btn1" Content="REGISTER&#xD;&#xA;HERE" Click="Button_Click" Height="61" Width="210" FontFamily="Bahnschrift SemiBold Condensed" FontSize="36" RequestedTheme="Default" Margin="46,456,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Button.RenderTransform>
+                <CompositeTransform Rotation="0.367"/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock x:Name="timeTextBlock" HorizontalAlignment="Left" Margin="154,215,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="38" Width="213"/>
+        <TextBlock x:Name="tb2" HorizontalAlignment="Left" Margin="154,304,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <Button x:Name="btnSetTime" Content="Button" Margin="507,454,0,0" VerticalAlignment="Top" Height="68" Width="178"/>
+        <TimePicker x:Name="tp1" Margin="456,252,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
